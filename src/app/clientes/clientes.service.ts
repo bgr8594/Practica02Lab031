@@ -45,7 +45,6 @@ export class ClientesService {
       sexo: 0
     };
   }  
-
   borrarCliente(cliente: Cliente): void{
     for(let i=0; i<this.clientes.length; i++){
       if(cliente === this.clientes[i]){
